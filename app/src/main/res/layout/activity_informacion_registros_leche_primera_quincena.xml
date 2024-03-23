@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion_Registros_Leche_Primera_Quincena"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/IndicardorMesPrimeraQuincena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/IndicadorQuincena1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:text="Primera Quincena"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/IndicadorRutaPrimeraQuincena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:text="Ruta 1"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 01"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="20dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 02"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 03"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos03"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 04"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos04"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 05"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos05"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 06"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos06"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 07"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos07"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 08"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos08"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 09"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos09"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 10"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 11"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 12"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 13"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 14"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Dia15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Día 15"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/abhaya_libre"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/AvisoSinInfoDia15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/portapapeles"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No hay archivos"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/abhaya_libre"
+                            android:layout_marginTop="10dp"/>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/Recyclerdatos15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/CrearExcelSegundaQuincena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/excel"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="Crear Excel"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

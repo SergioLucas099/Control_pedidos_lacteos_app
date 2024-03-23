@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetallesRegistro"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="91dp"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="250dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha - Hora :"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/abhaya_libre"/>
+
+                <TextView
+                    android:id="@+id/Fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="05-07-2023 08:01.12 pm"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="300dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AIDA LEONOR SIERRA BALLESTEROS"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="350dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cédula :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Cedula"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1234567890"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="380dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jornada de recoleción mañana:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Jornada_Recolecion_M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tarde"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="410dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jornada de recoleción tarde:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Jornada_Recolecion_T"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tarde"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="440dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ruta :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Ruta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ruta 3"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="470dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Observaciones :"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Observaciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/abhaya_libre" />
+
+                <TextView
+                    android:id="@+id/Mes"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/GenerarPdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="540dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pdf"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generar Pdf"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
